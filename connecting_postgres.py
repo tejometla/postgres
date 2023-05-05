@@ -15,7 +15,7 @@ data = cursor.fetchone()
 print("Connection established to: ",data)
 
 #Executing an MYSQL function using the execute() method
-cursor.execute("select * from employee")
+cursor.execute("select * from emp")
 result=cursor.fetchall()
 print("Emp table has below data: \n",result)
 
